@@ -21,7 +21,7 @@
   "devDependencies": {
     "@any-reader/shared": "workspace:^",
     "@rollup/plugin-alias": "^5.1.0",
-    "@rollup/plugin-commonjs": "^26.0.1",
+    "@rollup/plugin-commonjs": "^28.0.2",
     "@rollup/plugin-json": "^6.1.0",
     "@rollup/plugin-node-resolve": "^15.2.3",
     "@types/lodash-es": "^4.17.12",
