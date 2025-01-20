@@ -23,7 +23,7 @@
     "@rollup/plugin-alias": "^5.1.0",
     "@rollup/plugin-commonjs": "^26.0.1",
     "@rollup/plugin-json": "^6.1.0",
-    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-node-resolve": "^16.0.0",
     "@types/lodash-es": "^4.17.12",
     "fs-extra": "^11.2.0",
     "rollup": "^4.21.2",
