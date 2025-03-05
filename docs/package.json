@@ -11,14 +11,14 @@
   "devDependencies": {
     "@any-reader/core": "workspace:^",
     "@any-reader/rule-utils": "workspace:^",
-    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-javascript": "^6.2.3",
     "@codemirror/theme-one-dark": "^6.1.2",
-    "@shikijs/vitepress-twoslash": "^1.18.0",
+    "@shikijs/vitepress-twoslash": "^1.29.2",
     "codemirror": "^6.0.1",
     "js-base64": "^3.7.7",
-    "mermaid": "^11.2.1",
-    "vitepress": "^1.3.4",
-    "vitepress-plugin-mermaid": "^2.0.16",
+    "mermaid": "^11.4.1",
+    "vitepress": "^1.6.3",
+    "vitepress-plugin-mermaid": "^2.0.17",
     "vue-codemirror": "^6.1.1"
   }
 }
