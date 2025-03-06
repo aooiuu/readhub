@@ -84,7 +84,7 @@
     "@unocss/eslint-config": "^0.63.4",
     "@vitest/browser": "^2.1.2",
     "@vue/eslint-config-prettier": "^8.0.0",
-    "@vue/eslint-config-typescript": "^13.0.0",
+    "@vue/eslint-config-typescript": "^14.5.0",
     "bumpp": "^9.7.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
