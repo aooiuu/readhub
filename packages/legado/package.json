@@ -28,15 +28,15 @@
     "stub": "unbuild --stub"
   },
   "dependencies": {
-    "@xmldom/xmldom": "^0.9.3",
-    "axios": "^1.7.7",
-    "chardet": "^2.0.0",
+    "@xmldom/xmldom": "^0.9.8",
+    "axios": "^1.8.2",
+    "chardet": "^2.1.0",
     "cheerio": "1.0.0",
     "content-type": "^1.0.5",
     "iconv-lite": "^0.6.3",
-    "isolated-vm": "^5.0.1",
+    "isolated-vm": "^5.0.4",
     "jsonpath-plus": "^9.0.0",
-    "puppeteer": "^23.5.3",
+    "puppeteer": "^23.11.1",
     "urlencode": "^2.0.0",
     "xpath": "^0.0.34"
   },
