@@ -27,10 +27,10 @@
     "cli-progress": "^3.12.0",
     "commander": "^12.1.0",
     "open": "^10.1.0",
-    "p-limit": "^6.1.0"
+    "p-limit": "^6.2.0"
   },
   "devDependencies": {
     "@types/cli-progress": "^3.11.6",
-    "fs-extra": "^11.2.0"
+    "fs-extra": "^11.3.0"
   }
 }

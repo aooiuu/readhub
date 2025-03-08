@@ -32,12 +32,12 @@
     "@koa/bodyparser": "^5.1.1",
     "@koa/cors": "^5.0.0",
     "bcryptjs": "^2.4.3",
-    "koa": "^2.15.3",
+    "koa": "^2.16.0",
     "koa-bodyparser": "^4.4.1",
     "koa-router": "^12.0.1",
     "koa-session": "^6.4.0",
     "koa-static": "^5.0.0",
-    "sql.js": "^1.11.0",
+    "sql.js": "^1.12.0",
     "sqlite3": "5.1.6"
   },
   "devDependencies": {

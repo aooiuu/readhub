@@ -26,9 +26,9 @@
     "stub": "unbuild --stub"
   },
   "dependencies": {
-    "axios": "^1.7.7",
+    "axios": "^1.8.2",
     "base64-js": "^1.5.1",
-    "fast-xml-parser": "^4.5.0",
+    "fast-xml-parser": "^4.5.3",
     "pako": "^2.1.0",
     "uuid": "^10.0.0"
   },

@@ -64,42 +64,42 @@
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --cache"
   },
   "dependencies": {
-    "@codemirror/lang-javascript": "^6.2.2",
+    "@codemirror/lang-javascript": "^6.2.3",
     "@codemirror/lang-json": "^6.0.1",
-    "@unocss/reset": "^0.63.4",
-    "@vueuse/core": "^11.1.0",
+    "@unocss/reset": "^0.65.4",
+    "@vueuse/core": "^11.3.0",
     "codemirror": "^6.0.1",
-    "sql.js": "^1.11.0",
+    "sql.js": "^1.12.0",
     "sqlite3": "5.1.6"
   },
   "optionalDependencies": {
-    "bufferutil": "^4.0.8",
-    "utf-8-validate": "^6.0.4"
+    "bufferutil": "^4.0.9",
+    "utf-8-validate": "^6.0.5"
   },
   "devDependencies": {
-    "@eslint/compat": "^1.1.1",
-    "@rushstack/eslint-patch": "^1.10.4",
-    "@types/node": "^20.16.5",
+    "@eslint/compat": "^1.2.7",
+    "@rushstack/eslint-patch": "^1.10.5",
+    "@types/node": "^20.17.24",
     "@types/uuid": "^10.0.0",
-    "@unocss/eslint-config": "^0.63.4",
-    "@vitest/browser": "^2.1.2",
+    "@unocss/eslint-config": "^0.65.4",
+    "@vitest/browser": "^2.1.9",
     "@vue/eslint-config-prettier": "^8.0.0",
     "@vue/eslint-config-typescript": "^13.0.0",
-    "bumpp": "^9.7.1",
+    "bumpp": "^9.11.1",
     "cross-env": "^7.0.3",
     "eslint": "^8.57.1",
-    "eslint-plugin-vue": "^9.29.0",
+    "eslint-plugin-vue": "^9.33.0",
     "husky": "^8.0.3",
-    "npm-run-all2": "^6.2.3",
-    "playwright": "^1.48.0",
+    "npm-run-all2": "^6.2.6",
+    "playwright": "^1.51.0",
     "ts-node": "^10.9.2",
     "tsconfig-paths": "^4.2.0",
-    "tsup": "^8.3.0",
-    "tsx": "^4.19.1",
+    "tsup": "^8.4.0",
+    "tsx": "^4.19.3",
     "unbuild": "^2.0.0",
-    "unocss": "^0.63.4",
-    "vite-tsconfig-paths": "^5.0.1",
-    "vitest": "^2.1.2"
+    "unocss": "^0.65.4",
+    "vite-tsconfig-paths": "^5.1.4",
+    "vitest": "^2.1.9"
   },
   "lint-staged": {
     "*.{vue,js,ts}": "eslint --fix"

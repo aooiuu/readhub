@@ -19,7 +19,7 @@ jobs:
 
     steps:
       - name: Check out git repository
-        uses: actions/checkout@v4.1.7
+        uses: actions/checkout@v4.2.2
         with:
           fetch-depth: 0
 
@@ -72,7 +72,7 @@ jobs:
 
       # https://github.com/softprops/action-gh-release
       - name: release
-        uses: softprops/action-gh-release@v2.0.8
+        uses: softprops/action-gh-release@v2.2.1
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
