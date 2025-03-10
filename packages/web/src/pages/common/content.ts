@@ -95,6 +95,7 @@ export function useContent(contentRef: Ref<HTMLElement>) {
     if (!chapterPath.value) return '';
     const idx = chaptersStore.chapters.findIndex((e: any) => e.chapterPath === chapterPath.value);
     const item: any = idx === 0 ? null : chaptersStore.chapters[idx - 1];
+    readStore.setPreTitle(item?.name || '');
     return item?.chapterPath || '';
   });
 
@@ -103,6 +104,7 @@ export function useContent(contentRef: Ref<HTMLElement>) {
     const idx = chaptersStore.chapters.findIndex((e: any) => e.chapterPath === chapterPath.value) + 1;
     if (idx === 0) return '';
     const item: any = chaptersStore.chapters.length - 1 < idx ? null : chaptersStore.chapters[idx];
+    readStore.setNextTitle(item?.name || '');
     return item?.chapterPath || '';
   });
 
@@ -223,7 +225,7 @@ export function useContent(contentRef: Ref<HTMLElement>) {
   // 上一页
   function onPageUp() {
     contentRef.value.scrollTo({
-      top: contentRef.value.scrollTop - contentRef.value.offsetHeight + 5,
+      top: contentRef.value.scrollTop - contentRef.value.offsetHeight + 15,
       behavior: 'smooth'
     });
   }
@@ -231,7 +233,7 @@ export function useContent(contentRef: Ref<HTMLElement>) {
   // 下一页
   function onPageDown() {
     contentRef.value.scrollTo({
-      top: contentRef.value.scrollTop + contentRef.value.offsetHeight - 5,
+      top: contentRef.value.scrollTop + contentRef.value.offsetHeight - 15,
       behavior: 'smooth'
     });
   }

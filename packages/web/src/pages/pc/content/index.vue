@@ -24,13 +24,27 @@
         <!-- 上下章节按钮 -->
         <div class="flex justify-center">
           <a-button-group>
-            <a-button type="text" :disabled="!lastChapter" :style="{ color: settingStore.data.readStyle.textColor }" @click="onPrevChapter">
+            <a-button
+              type="text"
+              :disabled="!lastChapter"
+              :style="{ color: settingStore.data.readStyle.textColor }"
+              :title="readStore.preTitle"
+              @click="onPrevChapter"
+            >
               <LeftOutlined />
               上一章
             </a-button>
             <a-button type="text" :style="{ color: settingStore.data.readStyle.textColor }" @click="showChapters">目录</a-button>
-            <a-button type="text" :style="{ color: settingStore.data.readStyle.textColor }" @click="init(true)">重载</a-button>
-            <a-button type="text" :disabled="!nextChapter" :style="{ color: settingStore.data.readStyle.textColor }" @click="onNextChapter">
+            <a-button type="text" :style="{ color: settingStore.data.readStyle.textColor }" :title="readStore.title" @click="init(true)"
+              >重载</a-button
+            >
+            <a-button
+              type="text"
+              :disabled="!nextChapter"
+              :style="{ color: settingStore.data.readStyle.textColor }"
+              :title="readStore.nextTitle"
+              @click="onNextChapter"
+            >
               下一章
               <RightOutlined />
             </a-button>
